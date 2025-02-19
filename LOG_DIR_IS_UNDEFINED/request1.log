@@ -1,0 +1,6 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[REQUEST1] [INFO ] 2025-02-19 18:01:55 [http-nio-8080-exec-4] [MdcController:24] - log --> INFO
+[REQUEST1] [WARN ] 2025-02-19 18:01:55 [http-nio-8080-exec-4] [MdcController:25] - log --> WARN
+[REQUEST1] [ERROR] 2025-02-19 18:01:55 [http-nio-8080-exec-4] [MdcController:26] - log --> ERROR
+[REQUEST1] [INFO ] 2025-02-19 18:02:28 [SpringApplicationShutdownHook] [GracefulShutdown:54] - Commencing graceful shutdown. Waiting for active requests to complete
+[REQUEST1] [INFO ] 2025-02-19 18:02:28 [tomcat-shutdown] [GracefulShutdown:76] - Graceful shutdown complete

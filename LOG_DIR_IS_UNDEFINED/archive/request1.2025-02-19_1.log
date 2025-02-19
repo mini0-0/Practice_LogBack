@@ -1,0 +1,9 @@
+#logback.classic pattern: [REQUEST1] [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[REQUEST1] [INFO ] 2025-02-19 18:01:41 [main] [TomcatWebServer:243] - Tomcat started on port 8080 (http) with context path '/'
+[REQUEST1] [INFO ] 2025-02-19 18:01:41 [main] [LogbackApplication:59] - Started LogbackApplication in 1.562 seconds (process running for 2.038)
+[REQUEST1] [INFO ] 2025-02-19 18:01:46 [http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2025-02-19 18:01:46 [http-nio-8080-exec-1] [DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+[REQUEST1] [INFO ] 2025-02-19 18:01:46 [http-nio-8080-exec-1] [DispatcherServlet:554] - Completed initialization in 0 ms
+[REQUEST1] [INFO ] 2025-02-19 18:01:46 [http-nio-8080-exec-1] [DemoController:16] - log --> INFO
+[REQUEST1] [WARN ] 2025-02-19 18:01:46 [http-nio-8080-exec-1] [DemoController:17] - log --> WARN
+[REQUEST1] [ERROR] 2025-02-19 18:01:46 [http-nio-8080-exec-1] [DemoController:18] - log --> ERROR

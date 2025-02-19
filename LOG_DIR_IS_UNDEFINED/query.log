@@ -1,0 +1,7 @@
+#logback.classic pattern: [%-5level] %d{yyyy-MM-dd HH:mm:ss} [%thread] [%logger{0}:%line] - %msg%n
+[INFO ] 2025-02-19 18:01:49 [http-nio-8080-exec-2] [SQL_LOG1:16] - log --> INFO
+[WARN ] 2025-02-19 18:01:49 [http-nio-8080-exec-2] [SQL_LOG1:17] - log --> WARN
+[ERROR] 2025-02-19 18:01:49 [http-nio-8080-exec-2] [SQL_LOG1:18] - log --> ERROR
+[INFO ] 2025-02-19 18:01:52 [http-nio-8080-exec-3] [SQL_LOG2:18] - log --> INFO
+[WARN ] 2025-02-19 18:01:52 [http-nio-8080-exec-3] [SQL_LOG2:19] - log --> WARN
+[ERROR] 2025-02-19 18:01:52 [http-nio-8080-exec-3] [SQL_LOG2:20] - log --> ERROR
